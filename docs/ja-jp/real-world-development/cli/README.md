@@ -15,15 +15,17 @@ lastUpdated: 2026-06-30
 | 演習 | トピック | 説明 |
 |----------|-------|-------------|
 | [0. 前提条件][ex0] | セットアップ | リポジトリと codespace を作成する |
-| [1. Copilot CLI のインストール][ex1] | インストール | Copilot CLI をインストールして認証する |
-| [2. カスタム命令][ex2] | コンテキスト | 命令を追加し、Copilot CLI がどのように従うかを確認する |
-| [3. コード生成][ex3] | コード生成 | プラン モードを使って機能を生成する |
-| [4. Playwright MCP によるテスト][ex4] | 外部ツール | Playwright MCP サーバーを追加し、ブラウザーで機能をテストする |
-| [5. エージェント スキル][ex5] | スキル | 専門スキルで Copilot を強化する |
-| [6. カスタム エージェント][ex6] | エージェント | カスタム エージェントを確認して使用する |
-| [7. スラッシュ コマンド][ex7] | CLI 機能 | コンテキスト、モデル、共有、cloud agent への任意の委任を確認する |
-| [9. 振り返り][ex9] | まとめ | 重要な概念と次のステップを確認する |
-| [オプション: Foundry を組み込む][foundry] | ホスト型エージェント | モデルを準備し、カタログに基づいた Backer Concierge を構築してデプロイし、Web サイトに接続する |
+| [1. Copilot CLI をインストールする][ex1] | インストール | Copilot CLI をインストールして認証する |
+| [2. スター レーティングを追加する][ex2] | 機能 | UI に星評価を追加してユーザーのフィードバックを受け取る |
+| [3. エージェント モード: Plan と Autopilot][ex3] | エージェント | Plan と Autopilot を使って計画と実行を進める |
+| [4. カスタム命令で Copilot を導く][ex4] | コンテキスト | プロジェクトに必要な指示を追加して Copilot を導く |
+| [5. 品質チェック スキルをカスタマイズして使う][ex5] | スキル | 品質管理用のスキルを拡張して使う |
+| [6. Playwright MCP で機能を検証する][ex6] | 外部ツール | Playwright MCP を利用して実際のブラウザーで動作を確認する |
+| [7. QA エージェントを作成して使う][ex7] | テスト | 品質保証のためのエージェントを作成して使う |
+| [8. フィーチャー PR を作成してマージする][ex8] | ワークフロー | 機能の PR を作成してレビューとマージを進める |
+| [9. GitHub Copilot CLI のスラッシュ コマンド][ex9] | CLI 機能 | コンテキスト、モデル、共有、コマンドの使い方を確認する |
+| [10. まとめと次のステップ][ex10] | まとめ | 重要な概念と次のステップを振り返る |
+| [オプション: Foundry を組み込む][foundry] | ホスト型エージェント | モデルを準備し、エージェントを構築してデプロイし、Web サイトに接続する |
 
 ## 前提条件
 
@@ -47,11 +49,13 @@ lastUpdated: 2026-06-30
 
 [ex0]: 0-prerequisites/
 [ex1]: 1-install-copilot-cli/
-[ex2]: 2-custom-instructions/
-[ex3]: 3-generating-code/
-[ex4]: 4-mcp/
+[ex2]: 2-add-star-rating/
+[ex3]: 3-agent-modes/
+[ex4]: 4-custom-instructions/
 [ex5]: 5-agent-skills/
-[ex6]: 6-custom-agents/
-[ex7]: 7-slash-commands/
+[ex6]: 6-mcp-playwright/
+[ex7]: 7-qa-agent/
+[ex8]: 8-create-pull-request/
+[ex9]: 9-cli-power-tools/
+[ex10]: 10-review/
 [foundry]: 8-foundry-agent/
-[ex9]: 9-review/

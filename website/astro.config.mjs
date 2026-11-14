@@ -536,56 +536,88 @@ export default defineConfig({
           label: 'Real-world development',
           collapsed: true,
           translations: {
+            'es-ES': 'Desarrollo del mundo real',
+            'ja-JP': '実践的な開発',
             'ko-KR': '실제 개발',
+            'pt-BR': 'Desenvolvimento do mundo real',
+            'zh-CN': '真实开发场景',
           },
           items: [
             {
               label: 'Overview',
               link: '/real-world-development/',
               translations: {
+                'es-ES': 'Descripción general',
+                'ja-JP': '概要',
                 'ko-KR': '개요',
+                'pt-BR': 'Visão geral',
+                'zh-CN': '概述',
               },
             },
             {
               label: 'GitHub Copilot CLI',
               collapsed: true,
               translations: {
+                'es-ES': 'GitHub Copilot CLI',
+                'ja-JP': 'GitHub Copilot CLI',
                 'ko-KR': 'GitHub Copilot CLI',
+                'pt-BR': 'GitHub Copilot CLI',
+                'zh-CN': 'GitHub Copilot CLI',
               },
               items: [
                 {
                   label: 'Overview',
                   link: '/real-world-development/cli/',
                   translations: {
+                    'es-ES': 'Descripción general',
+                    'ja-JP': '概要',
                     'ko-KR': '개요',
+                    'pt-BR': 'Visão geral',
+                    'zh-CN': '概述',
                   },
                 },
                 {
                   label: '0. Prerequisites',
                   link: '/real-world-development/cli/0-prerequisites/',
                   translations: {
+                    'es-ES': '0. Requisitos previos',
+                    'ja-JP': '0. 前提条件',
                     'ko-KR': '0. 사전 준비',
+                    'pt-BR': '0. Pré-requisitos',
+                    'zh-CN': '0. 先决条件',
                   },
                 },
                 {
                   label: '1. Installing Copilot CLI',
                   link: '/real-world-development/cli/1-install-copilot-cli/',
                   translations: {
+                    'es-ES': '1. Instalar GitHub Copilot CLI',
+                    'ja-JP': '1. GitHub Copilot CLI をインストールする',
                     'ko-KR': '1. GitHub Copilot CLI 설치하기',
+                    'pt-BR': '1. Instalar o GitHub Copilot CLI',
+                    'zh-CN': '1. 安装 GitHub Copilot CLI',
                   },
                 },
                 {
                   label: '2. Add star ratings',
                   link: '/real-world-development/cli/2-add-star-rating/',
                   translations: {
+                    'es-ES': '2. Añadir valoraciones con estrellas',
+                    'ja-JP': '2. 星評価を追加する',
                     'ko-KR': '2. 빠른 성과로 별점 추가하기',
+                    'pt-BR': '2. Adicionar avaliações por estrelas',
+                    'zh-CN': '2. 添加星级评分',
                   },
                 },
                 {
                   label: '3. Agent modes: Plan and Autopilot',
                   link: '/real-world-development/cli/3-agent-modes/',
                   translations: {
+                    'es-ES': '3. Modos de agente: Plan y Autopilot',
+                    'ja-JP': '3. エージェント モード: Plan と Autopilot',
                     'ko-KR': '3. 에이전트 모드: Plan 및 Autopilot',
+                    'pt-BR': '3. Modos de agente: Plan e Autopilot',
+                    'zh-CN': '3. 智能体模式：Plan 和 Autopilot',
                   },
                 },
                 {

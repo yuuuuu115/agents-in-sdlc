@@ -14,16 +14,18 @@ lastUpdated: 2026-06-30
 
 | 练习 | 主题 | 说明 |
 |----------|-------|-------------|
-| [0. 先决条件][ex0] | 设置 | 创建存储库和 codespace |
+| [0. 先决条件][ex0] | 设置 | 创建仓库和 codespace |
 | [1. 安装 Copilot CLI][ex1] | 安装 | 安装并验证 Copilot CLI |
-| [2. 自定义说明][ex2] | 上下文 | 添加一条说明，并观察 Copilot CLI 如何遵循它 |
-| [3. 生成代码][ex3] | 代码生成 | 使用计划模式生成功能 |
-| [4. 使用 Playwright MCP 测试][ex4] | 外部工具 | 添加 Playwright MCP 服务器，并在浏览器中测试功能 |
-| [5. 智能体技能][ex5] | 技能 | 用专门的技能增强 Copilot |
-| [6. 自定义智能体][ex6] | 智能体 | 查看并使用自定义智能体 |
-| [7. 斜杠命令][ex7] | CLI 功能 | 探索上下文、模型、共享，以及可选的委托给 cloud agent |
-| [9. 回顾][ex9] | 总结 | 回顾关键概念和后续步骤 |
-| [可选：集成 Foundry][foundry] | 托管智能体 | 准备模型、构建并部署基于目录的 Backer Concierge，并将其连接到网站 |
+| [2. 添加星级评分][ex2] | 功能 | 为功能添加星级评分逻辑 |
+| [3. 智能体模式：Plan 和 Autopilot][ex3] | 智能体 | 使用 Copilot 的规划与自动化模式 |
+| [4. 用自定义说明引导 Copilot][ex4] | 上下文 | 添加说明来指导 Copilot 的开发过程 |
+| [5. 自定义并使用质量检查技能][ex5] | 技能 | 为验证增强 Copilot 的专业技能 |
+| [6. 使用 Playwright MCP 验证功能][ex6] | 外部工具 | 在真实浏览器中检查用户体验 |
+| [7. 创建并使用 QA 智能体][ex7] | 测试 | 创建并使用智能体来审查产品质量 |
+| [8. 创建并合并功能 PR][ex8] | 工作流 | 提交、审查并合并功能变更请求 |
+| [9. GitHub Copilot CLI 斜杠命令][ex9] | CLI 功能 | 探索上下文、模型和命令，以提升你的工作流 |
+| [10. 总结与下一步][ex10] | 总结 | 回顾重点并确定下一步行动 |
+| [可选：集成 Foundry][foundry] | 托管智能体 | 准备模型，构建并部署智能体，并连接网站 |
 
 ## 先决条件
 
@@ -47,11 +49,13 @@ lastUpdated: 2026-06-30
 
 [ex0]: 0-prerequisites/
 [ex1]: 1-install-copilot-cli/
-[ex2]: 2-custom-instructions/
-[ex3]: 3-generating-code/
-[ex4]: 4-mcp/
+[ex2]: 2-add-star-rating/
+[ex3]: 3-agent-modes/
+[ex4]: 4-custom-instructions/
 [ex5]: 5-agent-skills/
-[ex6]: 6-custom-agents/
-[ex7]: 7-slash-commands/
+[ex6]: 6-mcp-playwright/
+[ex7]: 7-qa-agent/
+[ex8]: 8-create-pull-request/
+[ex9]: 9-cli-power-tools/
+[ex10]: 10-review/
 [foundry]: 8-foundry-agent/
-[ex9]: 9-review/
